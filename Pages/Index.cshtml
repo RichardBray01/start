@@ -1,9 +1,14 @@
 ﻿@page
 @model Start.Pages.IndexModel
+@{
+  Layout = "_Layout";
+}
 
-<html>
-<body>
+
 <div>
-    <p>hello world</p>
+    @{
+        string msg = "hello rob ";
+    }
+    <p>@msg</p>
 </div>
-</body>
+
